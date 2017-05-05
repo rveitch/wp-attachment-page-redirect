@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Attachment Pages to 404
- * Description: Redirects attachement page requests to 404 for attachement security.
+ * Description: Redirects attachment page requests to 404 for attachment security.
  * Plugin URI:  https://github.com/rveitch/wp-attachment-page-redirect
  * Author:      Ryan Veitch
  * Author URI:  https://github.com/rveitch
@@ -13,7 +13,7 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Redirect requests for attachement pages to the theme's 404 page.
+ * Redirect requests for attachment pages to the theme's 404 page.
  */
 function _attachment_page_redirect() {
 	global $post;
